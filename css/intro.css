@@ -15,7 +15,6 @@
   object-position: center;
   border-radius: 30px;
   border: 4px solid #525252
-
 }
 
 .introducao .texto {
@@ -96,7 +95,9 @@
 
 @media (max-width: 500px) {
   .introducao img {
-    display: none;
+    height: 70%;
+    border-radius: 40%;
+
   }
   .introducao {
     grid-template-columns: 1fr;
